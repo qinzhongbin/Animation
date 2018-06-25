@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:fromXScale表示动画在水平方向的起始缩放倍数, 值小于1.0表示收缩, 值大于1.0表示放大.-->
+<!--android:pivotX表示视图缩放的轴点(中心点). 可取值为数字, 百分比, 或者百分比p.
+设置为数字时(如50), 轴点为View的左上角的原点在x方向加上50px的点. 在Java代码里面设置这个参数的对应参数是Animation.ABSOLUTE.
+设置为百分比时(如50%), 轴点为View的左上角的原点在x方向加上自身宽度50%的点. 在Java代码里面设置这个参数的对应参数是Animation.RELATIVE_TO_SELF.
+设置为百分比p时(如50%p), 轴点为View的左上角的原点在x方向加上父控件宽度50%的点. 在Java代码里面设置这个参数的对应参数是Animation.RELATIVE_TO_PARENT.
+-->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:startOffset="1000"
+    android:repeatMode="reverse"
+    android:repeatCount="2"
+    android:fillAfter="true"
+
+    android:fromXScale="0"
+    android:toXScale="2"
+    android:fromYScale="0"
+    android:toYScale="2"
+    android:pivotX="50%"
+    android:pivotY="50%"/>
