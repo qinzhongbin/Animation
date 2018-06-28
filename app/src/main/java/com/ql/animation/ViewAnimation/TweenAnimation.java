@@ -1,4 +1,4 @@
-package com.ql.animation;
+package com.ql.animation.ViewAnimation;
 
 import android.content.Context;
 import android.view.animation.AlphaAnimation;
@@ -9,10 +9,12 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
 
+import com.ql.animation.R;
+
 /**
  * Author: ql
  * Date: 2018/6/25
- * Desc: 视图动画
+ * Desc: 补间动画
  * 1.旋转
  * AnimationUtils.loadAnimation(Context context, @AnimRes int id) --> translateAnimation.set... --> View.startAnimation(Animation animation)
  * new TranslateAnimation(float fromXDelta, float toXDelta, float fromYDelta, float toYDelta) --> translateAnimation.set... --> View.startAnimation(Animation animation)
@@ -30,10 +32,10 @@ import android.view.animation.TranslateAnimation;
  * AnimationUtils.loadAnimation(Context context, @AnimRes int id) --> animationSet.set... --> View.startAnimation(Animation animation)
  * new AnimationSet(boolean shareInterpolator) --> animationSet.addAnimation(Animation a)... --> animationSet.set... --> View.startAnimation(Animation animation)
  */
-public class ViewAnimation {
+public class TweenAnimation {
     private final Context context;
 
-    public ViewAnimation(Context context) {
+    public TweenAnimation(Context context) {
         this.context = context;
     }
 
