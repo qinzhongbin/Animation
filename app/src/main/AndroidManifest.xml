@@ -10,12 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.TweenAnimationActivity" />
-        <activity android:name=".activity.FirstActivity"></activity>
+        <activity android:name=".activity.FirstActivity" />
         <activity android:name=".activity.SecondActivity" />
-        <activity android:name=".activity.FragmentAnimationActivity">
+        <activity android:name=".activity.FragmentAnimationActivity" />
+        <activity android:name=".activity.ViewGroupChildAnimationActivity">
 
         </activity>
-        <activity android:name=".activity.ViewGroupChildAnimationActivity">
+        <activity android:name=".activity.FrameAnimationActivity">
+
+        </activity>
+        <activity android:name=".activity.ValueAnimatorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,5 +27,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

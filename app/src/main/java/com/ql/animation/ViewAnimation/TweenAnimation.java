@@ -13,18 +13,18 @@ import com.ql.animation.R;
 
 /**
  * Author: ql
- * Date: 2018/6/25
+ * Date: 2018/gif_6/25
  * Desc: 补间动画
- * 1.旋转
+ * gif_1.旋转
  * AnimationUtils.loadAnimation(Context context, @AnimRes int id) --> translateAnimation.set... --> View.startAnimation(Animation animation)
  * new TranslateAnimation(float fromXDelta, float toXDelta, float fromYDelta, float toYDelta) --> translateAnimation.set... --> View.startAnimation(Animation animation)
- * 2.缩放
+ * gif_2.缩放
  * AnimationUtils.loadAnimation(Context context, @AnimRes int id) --> scaleAnimation.set... --> View.startAnimation(Animation animation)
  * new ScaleAnimation(float fromX, float toX, float fromY, float toY, int pivotXType, float pivotXValue, int pivotYType, float pivotYValue) --> scaleAnimation.set... --> View.startAnimation(Animation animation)
- * 3.旋转
+ * gif_3.旋转
  * AnimationUtils.loadAnimation(Context context, @AnimRes int id) --> rotateAnimation.set... --> View.startAnimation(Animation animation)
  * new RotateAnimation(float fromDegrees, float toDegrees, int pivotXType, float pivotXValue,int pivotYType, float pivotYValue) --> rotateAnimation.set... --> View.startAnimation(Animation animation)
- * 4.透明度
+ * gif_4.透明度
  * AnimationUtils.loadAnimation(Context context, @AnimRes int id) --> alphaAnimation.set... --> View.startAnimation(Animation animation)
  * new AlphaAnimation(float fromAlpha, float toAlpha) --> alphaAnimation.set... --> View.startAnimation(Animation animation)
  * <p>

@@ -16,7 +16,7 @@ import com.ql.animation.R;
 
 /**
  * Author: ql
- * Date: 2018/6/28
+ * Date: 2018/gif_6/28
  * Desc: ViewGroup子元素动画
  * 1.XML
  * 2.Java

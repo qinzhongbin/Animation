@@ -9,7 +9,7 @@ import com.ql.animation.R;
 
 /**
  * Author: ql
- * Date: 2018/6/26
+ * Date: 2018/gif_6/26
  * Desc: fragment出入动画
  * getSupportFragmentManager.setCustomAnimations(int enter, int exit)
  */
@@ -30,7 +30,7 @@ public class FragmentAnimationActivity extends AppCompatActivity {
         ft.add(R.id.container, blankFragment);
         ft.commit();
 
-        // TODO: 2018/6/28 Fragment使用
+        // TODO: 2018/gif_6/28 Fragment使用
 
 //        blankFragment.getView().setOnClickListener(new View.OnClickListener() {
 //            @Override

@@ -13,7 +13,7 @@ import com.ql.animation.R;
 
 /**
  * Author: ql
- * Date: 2018/6/27
+ * Date: 2018/gif_6/27
  * Desc: fragment出入动画
  */
 public class BlankFragment extends Fragment {

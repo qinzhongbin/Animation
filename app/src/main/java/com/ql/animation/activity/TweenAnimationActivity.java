@@ -7,9 +7,10 @@ import android.view.animation.Animation;
 
 import com.ql.animation.R;
 import com.ql.animation.ViewAnimation.TweenAnimation;
+
 /**
  * Author: ql
- * Date: 2018/6/26
+ * Date: 2018/gif_6/26
  * Desc: 补间动画
  */
 public class TweenAnimationActivity extends AppCompatActivity {
@@ -32,10 +33,5 @@ public class TweenAnimationActivity extends AppCompatActivity {
 //        return tweenAnimation.scale_java();
 //        return tweenAnimation.alpha_java();
         return tweenAnimation.set_xml();
-    }
-
-    @Override
-    public void finish() {
-        super.finish();
     }
 }
