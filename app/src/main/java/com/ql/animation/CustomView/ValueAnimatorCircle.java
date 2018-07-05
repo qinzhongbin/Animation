@@ -13,22 +13,22 @@ import com.ql.animation.PropertyAnimation.ValueAnimator;
 /**
  * Author: ql
  * Date: 2018/7/3
- * Desc: 自定义的动画圆
+ * Desc: 使用ValueAnimator_ofFloat自定义的动画圆
  */
-public class AnimatorCircle extends View {
+public class ValueAnimatorCircle extends View {
 
     private Paint paint;
     private ValueAnimator.Point currentPoint;
 
-    public AnimatorCircle(Context context) {
+    public ValueAnimatorCircle(Context context) {
         this(context, null);
     }
 
-    public AnimatorCircle(Context context, @Nullable AttributeSet attrs) {
+    public ValueAnimatorCircle(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public AnimatorCircle(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ValueAnimatorCircle(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         init();

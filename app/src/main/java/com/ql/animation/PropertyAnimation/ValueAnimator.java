@@ -11,11 +11,17 @@ import com.ql.animation.activity.ValueAnimatorActivity;
  * Author: ql
  * Date: 2018/6/29
  * Desc: ValueAnimator
+ * ValueAnimator先改变值,然后手动赋值给对象的属性从而实现动画(addUpdateListener(AnimatorUpdateListener listener)).
+ * <p>
+ * ofInt(int... values)
+ * ofFloat(float... values)
+ * ofObject(TypeEvaluator evaluator, Object... values)  没有默认的估值器,需实现.
  */
 public class ValueAnimator {
 
     public void ofInt_xml(ValueAnimatorActivity activity, final TextView tv) {
-        android.animation.ValueAnimator valueAnimator = (android.animation.ValueAnimator) AnimatorInflater.loadAnimator(activity, R.animator.of_int);
+//        强转
+        android.animation.ValueAnimator valueAnimator = (android.animation.ValueAnimator) AnimatorInflater.loadAnimator(activity, R.animator.value_of_int);
 
         valueAnimator.addUpdateListener(new android.animation.ValueAnimator.AnimatorUpdateListener() {
             @Override
@@ -46,7 +52,7 @@ public class ValueAnimator {
     }
 
     public void ofFloat_xml(ValueAnimatorActivity activity, final TextView tv) {
-        android.animation.ValueAnimator valueAnimator = (android.animation.ValueAnimator) AnimatorInflater.loadAnimator(activity, R.animator.of_float);
+        android.animation.ValueAnimator valueAnimator = (android.animation.ValueAnimator) AnimatorInflater.loadAnimator(activity, R.animator.value_of_float);
 
         valueAnimator.addUpdateListener(new android.animation.ValueAnimator.AnimatorUpdateListener() {
             @Override
@@ -73,7 +79,6 @@ public class ValueAnimator {
 
         animator.start();
     }
-
 
     public android.animation.ValueAnimator ofObject() {
         return android.animation.ValueAnimator.ofObject(new PointEvaluator(), new Point(100, 100), new Point(400, 900));

@@ -26,6 +26,4 @@ public class ValueAnimatorActivity extends AppCompatActivity {
 //        valueAnimator.ofFloat_xml(this, tv);
 //        valueAnimator.ofFloat_java(tv);
     }
-
-
 }

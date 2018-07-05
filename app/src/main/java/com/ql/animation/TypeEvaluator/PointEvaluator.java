@@ -7,7 +7,7 @@ import com.ql.animation.PropertyAnimation.ValueAnimator;
 /**
  * Author: ql
  * Date: 2018/7/3
- * Desc: 自定义的圆点坐标估值器
+ * Desc: 圆点坐标估值器
  */
 public class PointEvaluator implements TypeEvaluator<ValueAnimator.Point> {
     @Override

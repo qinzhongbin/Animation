@@ -13,13 +13,13 @@
         <activity android:name=".activity.FirstActivity" />
         <activity android:name=".activity.SecondActivity" />
         <activity android:name=".activity.FragmentAnimationActivity" />
-        <activity android:name=".activity.ViewGroupChildAnimationActivity">
-
-        </activity>
-        <activity android:name=".activity.FrameAnimationActivity">
-
-        </activity>
-        <activity android:name=".activity.ValueAnimatorActivity">
+        <activity android:name=".activity.ViewGroupChildAnimationActivity" />
+        <activity android:name=".activity.FrameAnimationActivity" />
+        <activity android:name=".activity.ValueAnimatorActivity" />
+        <activity android:name=".activity.ObjectAnimatorActivity" />
+        <activity android:name=".activity.AnimatorSetActivity" />
+        <activity android:name=".activity.ViewPropertyAnimatorActivity"/>
+        <activity android:name=".activity.InterpolatorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,4 +27,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

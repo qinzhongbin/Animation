@@ -16,7 +16,7 @@
     <!--android:text="TextView" />-->
 
 
-    <com.ql.animation.CustomView.AnimatorCircle
+    <com.ql.animation.CustomView.ValueAnimatorCircle
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
